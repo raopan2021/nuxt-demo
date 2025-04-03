@@ -1,12 +1,3 @@
 <template>
-  <header class="header">header</header>
+  <header class="header h-[50px] bg-[#f5f5f5] m-0 p-0">header</header>
 </template>
-
-<style scoped>
-.header {
-  height: 50px;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-</style>

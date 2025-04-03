@@ -1,25 +1,11 @@
 <template>
-  <div class="container">
+  <div class="min-h-[100svh] w-[100svw] flex flex-col justify-between">
     <AppHeader />
 
-    <div class="main">
+    <div class="flex-1 bg-[#f0f0f0]">
       <slot />
     </div>
 
     <AppFooter />
   </div>
 </template>
-
-<style scoped lang="scss">
-.container {
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  .main {
-    flex: 1;
-    background-color: #f0f0f0;
-  }
-}
-</style>

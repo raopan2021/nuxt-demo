@@ -1,12 +1,3 @@
 <template>
-  <footer class="footer">footer</footer>
+  <footer class="h-[50px] bg-[#f5f5f5] m-0 p-0">footer</footer>
 </template>
-
-<style scoped>
-.footer {
-  height: 50px;
-  background-color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-</style>
