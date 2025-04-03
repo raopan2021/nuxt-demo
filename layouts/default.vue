@@ -10,15 +10,16 @@
   </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .container {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.main {
-  flex: 1;
+  .main {
+    flex: 1;
+    background-color: #f0f0f0;
+  }
 }
 </style>
